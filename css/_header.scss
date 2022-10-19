@@ -1,0 +1,68 @@
+
+.main-header {
+   max-width: 100%;
+   height: 120rem;
+   background-color: $colo-triangle;
+   clip-path: polygon(0% 0%, 250% 0%, 50% 100%, 0% 75%);
+   position: relative;    
+    .triangle {
+        max-width: 100%;
+        height: 115rem;
+        clip-path: polygon(0% 0%, 250% 0%, 50% 100%, 0% 75%);
+        background-color: $color-header;
+
+   }
+
+   .main-content {
+        text-align: center;
+
+        .logo {
+            margin-bottom: 5rem;
+        }
+        .title {
+            color: $color-title;
+            font-size:15rem;
+            text-transform: uppercase;
+            .borde {
+                border-bottom: 2px solid $color-title;
+                width: 60%;
+                margin-left: 20%;
+                margin-bottom: 10rem;
+            }
+        }
+        
+        h2 {
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            color: $color-menu;
+            font-size: 3rem;
+        }
+        
+        .content {
+            display: flex;
+            justify-content: center;
+            p {
+                font-size: 2.9rem;
+                color: $color-menu;
+                margin-bottom: 4rem;
+                line-height: 4rem;
+                width: 80%;
+            }
+        }
+
+        .buttom {
+            display: flex;
+            justify-content: center;
+            a {
+                background: #fff;
+                width: 15rem;
+                padding: 1rem;  
+                font-size: 2rem;
+                color: $color-header;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+
